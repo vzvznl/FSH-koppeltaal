@@ -1,0 +1,69 @@
+id: Koppeltaal
+name: KoppeltaalIG
+title: Koppeltaal 2.0 Implementation Guide
+description: Example Implementation Guide for getting started with SUSHI
+canonical: http://koppeltaal.nl/fhir
+fhirVersion: 4.0.1
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+status: draft
+version: 0.9.0
+copyrightYear: 2024+
+releaseLabel: ci-build
+# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: urn:iso:std:iso:3166#NL "Netherlands" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+language: en-US
+publisher:
+  name: VZVZ
+  url: https://vzvz.nl
+dependencies:
+    nictiz.fhir.nl.r4.zib2020: 0.11.0-beta.1
+    nictiz.fhir.nl.r4.nl-core: 0.11.0-beta.1
+    vzvz.fhir.nl-vzvz-core: 0.1.1
+
+pages:
+  index.md:
+    title: Home
+  general-notes.md:
+    based-on-nl-core-profiles.md: 
+      title: Based on nl-core profiles
+    restrictions-on-elements.md: 
+      title: Restriction on usage of elements
+    country-codes.md: 
+      title: Country Codes
+    examples.md:
+        title: Examples
+    strict-use-of-nameinformation.md:
+      title: Strict use of Name Information
+
+parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  path-resource:
+    - input/resources
+    - fsh-generated/resources
+  path-pages:
+    - input/pagecontent
+    - input/intro-notes
+    - fsh-generated/includes
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
+# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
+# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
+# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
+# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
+# │ property below.                                                                                │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  General Notes:
+    Based on nl-core profiles: based-on-nl-core-profiles.html
+    Restriction on usage of elements: restrictions-on-elements.html
+    Country Codes: country-codes.html
+    Examples: examples.html
+    Strict use of Name Information: strict-use-of-nameinformation.html
+  Artifacts: artifacts.html
+
+instanceOptions:
+  manualSliceOrdering: true # true | false
+  setMetaProfile: always # always | never | inline-only | standalone-only
+  setId: always # always | standalone-only

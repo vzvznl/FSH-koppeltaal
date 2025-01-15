@@ -1,0 +1,29 @@
+== Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# Can't be helped
+Resolved system urn:ietf:bcp:47, but the definition is not complete, so assuming value set include is correct
+
+# Ignore missing terminology resources
+A definition for CodeSystem%
+
+# Ignore terminology language issues
+%is the default display; the code system%
+No valid Display Names found for http://terminology.hl7.org/CodeSystem/v3-AddressUse#MC in the language nl-NL
+Wrong Display Name%
+Terminology_TX_NoValid_1_CC
+
+# Ignore security warnings
+SECURITY_STRING_CONTENT_WARNING
+
+# Ignore warning because we only want a fixed value
+For the complex type%
+
+# Looks like a bug in IG Publisher
+ActivityDefinition.date: max allowed = 0%
+ActivityDefinition.publisher: max allowed = 0%
+ActivityDefinition.contact: max allowed = 0%
+ActivityDefinition.jurisdiction: max allowed = 0%
