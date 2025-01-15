@@ -1,0 +1,29 @@
+Instance: audit-event-with-outcome-4
+InstanceOf: AuditEvent
+Usage: #example
+* meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* meta.lastUpdated = "2023-01-10T12:50:22Z"
+* meta.versionId = "1"
+* extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
+* extension[=].valueReference = Reference(Device/device-volledig)
+* extension[=].valueReference.type = "Device"
+* extension[+].url = "http://koppeltaal.nl/fhir/StructureDefinition/request-id"
+* extension[=].valueId = "f272ae9f83a49bdd"
+* extension[+].url = "http://koppeltaal.nl/fhir/StructureDefinition/trace-id"
+* extension[=].valueId = "decc45dd65cb97ea25e6d2a53e067f09"
+* type = $audit-event-type#rest "RESTful Operation"
+* subtype = $restful-interaction#create
+* action = #C
+* recorded = "2023-01-10T12:50:22+01:00"
+* outcome = #4
+* agent.type = $DCM#110153
+* agent.who = Reference(Device/device-volledig)
+* agent.requestor = true
+* source.site = "domein1"
+* source.observer = Reference(Device/device-volledig)
+* source.observer.type = "Device"
+* source.type = $security-source-type#4 "Application Server"
+* entity[0].what = Reference(o1)
+* entity[=].type = $resource-types#OperationOutcome "OperationOutcome"
+* entity[+].type = $resource-types#Patient "Patient"
+* contained = o1

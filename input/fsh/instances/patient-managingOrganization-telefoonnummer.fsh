@@ -1,0 +1,35 @@
+Instance: patient-managingOrganization-telefoonnummer
+InstanceOf: Patient
+Description: "Example of a Patient with a telephone number and managing organization"
+Usage: #example
+* meta.profile = "http://nictiz.nl/fhir/StructureDefinition/nl-core-Patient"
+* insert NLlang
+* identifier
+  * use = #official
+  * system = "http://irma.app"
+  * value = "bertabotje01@vzvz.nl"
+* active = true
+* name
+  * use = #official
+  * family = "Botje"
+    * extension
+      * url = "http://hl7.org/fhir/StructureDefinition/humanname-partner-name"
+      * valueString = "Botje"
+  * given = "Berta"
+    * extension
+      * url = "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier"
+      * valueCode = #BR
+* telecom
+  * system = #phone
+    * extension
+      * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
+      * valueCodeableConcept = $v3-AddressUse#MC "Mobile Phone"
+  * value = "+31611234567"
+  * use = #home
+* gender = #female
+  * extension
+    * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
+    * valueCodeableConcept.coding = $v3-AdministrativeGender#F "Female"
+* birthDate = "1972-11-12"
+* managingOrganization = Reference(Organization/organization-minimaal)
+  * type = "Organization"

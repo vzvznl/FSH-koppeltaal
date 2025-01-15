@@ -1,0 +1,22 @@
+Instance: auditevent-error-invalid-subscription
+InstanceOf: AuditEvent
+Usage: #example
+* meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* type = $audit-event-type#rest "Restful Operation"
+* subtype = $restful-interaction#create "create"
+* action = #C
+* recorded = "2023-01-19T23:42:24+00:00"
+* outcome = #4
+* outcomeDesc = "Invalid subscription criteria submitted: Patient?status=active Failed to parse match URL[Patient?status=active] - Resource type Patient does not have a parameter with name: status\n"
+* agent.type = $DCM#110153
+* agent.who = Reference(Device/device-volledig)
+* agent.requestor = true
+* source.site = "Koppeltaal Domein X"
+* source.observer = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+* source.observer.type = "Device"
+* entity.type = $resource-types#OperationOutcome "OperationOutcome"
+* entity.description = "Subscription submission failed"
+* extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/trace-id"
+* extension[=].valueId = "000000000000000053ce929d0e0e4744"
+* extension[+].url = "http://koppeltaal.nl/fhir/StructureDefinition/request-id"
+* extension[=].valueId = "53ce929d0e0e4744"
