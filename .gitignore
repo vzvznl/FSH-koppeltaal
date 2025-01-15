@@ -2,3 +2,5 @@ input-cache
 node_modules
 temp
 package.tgz
+kt.template
+template
