@@ -1,4 +1,4 @@
-ValueSet: KoppeltaalDefinitionTopic
+ValueSet: KoppeltaalDefinitionTopic_VS
 Id: koppeltaal-definition-topic
 Title: "Koppeltaal Definition Topic"
 Description: "High-level categorization of the definition, used for indicating special patient initialised activities"

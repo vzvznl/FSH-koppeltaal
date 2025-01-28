@@ -1,8 +1,8 @@
-ValueSet: KoppeltaalTaskCode
+ValueSet: KoppeltaalTaskCode_VS
 Id: koppeltaal-task-code
 Title: "Koppeltaal Task Code"
 Description: "ValueSet for Task.code"
-* ^name = "KoppeltaalTaskCode"
+* ^name = "KoppeltaalTaskCode_ValueSet"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "http://koppeltaal.nl/fhir/ValueSet/koppeltaal-task-code"
 * ^identifier.use = #official

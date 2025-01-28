@@ -37,7 +37,7 @@ Description: "The (FHIR) ActivityDefinition (resource) describes an eHealth acti
 * approvalDate ..0
 * lastReviewDate ..0
 * effectivePeriod ..0
-* topic from KoppeltaalDefinitionTopic (extensible)
+* topic from KoppeltaalDefinitionTopic_VS (extensible)
   * ^short = "E.g. Self-Treatment and Self-Assessment, etc."
   * ^definition = "Descriptive topics related to the content of the activity. The topic is used to indicate that the activity is intended or suitable for initialization by patients."
   * ^binding.description = "High-level categorization of the definition, used for indicating special patient initialised activities"
