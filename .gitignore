@@ -4,3 +4,5 @@ temp
 package.tgz
 kt.template
 template
+input/fsh-not-used
+fsh-generated
