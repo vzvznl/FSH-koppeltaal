@@ -10,7 +10,7 @@ Usage: #example
 * action = #C
 * recorded = "2023-01-19T23:42:24+00:00"
 * outcome = #4
-* outcomeDesc = "Invalid subscription criteria submitted: Patient?status=active Failed to parse match URL[Patient?status=active] - Resource type Patient does not have a parameter with name: status\n"
+* outcomeDesc = "Invalid subscription criteria submitted: Patient?status=active Failed to parse match URL[Patient?status=active] - Resource type Patient does not have a parameter with name: status"
 * agent.type = $DCM#110153
 * agent.who = Reference(device-volledig)
 * agent.requestor = true
