@@ -3,6 +3,9 @@ InstanceOf: Device
 Description: "Example of a Device with all elements populated"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Device"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of a Device with all elements populated</div>"
 * insert NLlang
 * identifier
   * system = "http://vzvz.nl/fhir/NamingSystem/koppeltaal-client-id"
