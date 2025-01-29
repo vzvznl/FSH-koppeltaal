@@ -2,9 +2,6 @@ Profile: KT2_Subscription
 Parent: Subscription
 Id: KT2Subscription
 Description: "The (FHIR) Subscription (resource) is used to define a push-based subscription from a server to another system. Once a Subscription is registered with the server, the server checks every resource that is created or updated, and if the resource matches the given criteria, it sends a message on the defined \"channel\" so that another system can take an appropriate action."
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2023-01-24T13:06:53.1725719+00:00"
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Subscription"
 * ^version = "0.8.0"
 * ^status = #draft
 * ^date = "2023-01-24"

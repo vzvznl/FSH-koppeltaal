@@ -2,9 +2,6 @@ Profile: KT2_Device
 Parent: Device
 Id: KT2Device
 Description: "The (FHIR) Device (resource) is a representation of an application that is used in the provision of healthcare without being substantially changed through that activity. The device may be a module, portal or eHealth app."
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2023-02-07T12:25:05.6203243+00:00"
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Device"
 * ^version = "0.8.1"
 * ^status = #draft
 * ^date = "2023-02-07"

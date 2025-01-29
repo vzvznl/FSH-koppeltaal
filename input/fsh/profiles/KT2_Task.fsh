@@ -2,8 +2,6 @@ Profile: KT2_Task
 Parent: Task
 Id: KT2Task
 Description: "The (FHIR) Task (resource) describes an eHealth task, that is, an eHealth activity assigned to a patient."
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2024-11-25T14:18:35.4925248+00:00"
 * ^version = "0.8.1"
 * ^status = #draft
 * ^date = "2023-01-24"

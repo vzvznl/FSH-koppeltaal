@@ -2,9 +2,6 @@ Profile: KT2_AuditEvent
 Parent: AuditEvent
 Id: KT2AuditEvent
 Description: "Koppeltaal AuditEvent profile as used to consolidate logging information."
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2023-09-11T21:28:19.3991918+00:00"
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
 * ^version = "0.10.0"
 * ^status = #draft
 * ^date = "2023-01-31"

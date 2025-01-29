@@ -2,14 +2,10 @@ Profile: KT2_ActivityDefinition
 Parent: ActivityDefinition
 Id: KT2ActivityDefinition
 Description: "The (FHIR) ActivityDefinition (resource) describes an eHealth activity that is available for assignment to a patient. When assigning an eHealth activity to a patient, an eHealth Task is created, in which sub-activities are included as contained resources that refer to the main task via Task.partOf."
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2024-10-18T21:08:35.5759835+00:00"
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2ActivityDefinition"
 * ^version = "0.9.0"
 * ^status = #draft
 * ^date = "2023-01-24"
 * insert ContactAndPublisher
-
 * . ^short = "Description of an eHealth activity"
 * . ^comment = "The (FHIR) ActivityDefinition describes an eHealth activity available to assign to a patient. The assignment of an eHealth activity to a patient creates an eHealth Task (Task resource). This task can contain sub activities as contained resources which refer to the main task using the Task.partOf element."
 * insert Origin

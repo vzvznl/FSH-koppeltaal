@@ -2,9 +2,6 @@ Profile: KT2_Practitioner
 Parent: NlcoreHealthProfessionalPractitioner
 Id: KT2Practitioner
 Description: "The (FHIR) Practitioner (resource) is a representation of a person who is directly or indirectly involved in the provision of health care."
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2024-04-09T14:56:44.5474462+00:00"
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Practitioner"
 * ^version = "0.8.0"
 * ^status = #draft
 * ^date = "2023-01-24"

@@ -2,9 +2,6 @@ Profile: KT2_Patient
 Parent: NlcorePatient
 Id: KT2Patient
 Description: "The (FHIR) Patient (resource) is a representation of a person who is being treated by the Healthcare Provider to whom eHealth activities are assigned."
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2024-03-13T14:21:00.4204722+00:00"
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Patient"
 * ^version = "0.8.0"
 * ^status = #draft
 * ^date = "2023-01-24"
