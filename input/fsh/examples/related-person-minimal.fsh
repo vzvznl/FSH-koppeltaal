@@ -19,5 +19,5 @@ Usage: #example
 * gender = #female
 * birthDate = "1980-07-29"
 * active = true
-* communication.language = urn:ietf:bcp:47#en "English"
-* communication.preferred = true* communication.preferred = true* patient = Reference(patient-met-resource-origin) "Patient, Berta Botje"* patient = Reference(patient-met-resource-origin) "Patient, Berta Botje"
+* patient = Reference(patient-met-resource-origin) "Patient, Berta Botje"
+* communication.language = urn:ietf:bcp:47#nl
