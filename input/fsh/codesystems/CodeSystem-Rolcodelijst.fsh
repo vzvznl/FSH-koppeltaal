@@ -14,6 +14,7 @@ Description: "COD472-VEKT Soort relatie cliënt --- uitsluitend bedoeld voor tes
 * ^version = "2024-09-04"
 * ^status = #unknown
 * ^experimental = false
+* ^caseSensitive = false
 * #01 "Eerste relatie/contactpersoon"
 * #02 "Tweede relatie/contactpersoon"
 * #03 "Curator (juridisch)"
