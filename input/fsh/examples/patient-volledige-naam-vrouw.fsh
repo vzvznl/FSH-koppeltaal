@@ -81,7 +81,6 @@ Usage: #example
       * valueCodeableConcept.coding = urn:iso:std:iso:3166#NL "Nederland"
         * version = "2020-10-26T00:00:00"
 * maritalStatus = $v3-MaritalStatus#D "Divorced"
-* multipleBirthBoolean = true
 * contact
   * relationship[0] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#01 "Eerste relatie/contactpersoon"
   * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#07 "Hulpverlener"
