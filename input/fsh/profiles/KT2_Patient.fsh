@@ -58,7 +58,8 @@ Description: "The (FHIR) Patient (resource) is a representation of a person who 
   // * period 
   //   * insert notUsedKT2
 * maritalStatus ..0
-* multipleBirth[x] ..0
+* multipleBirthBoolean ..0
+* multipleBirthInteger ..0
 * photo ..0
 * contact ..0
 * communication ..0
