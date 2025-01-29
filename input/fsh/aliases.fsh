@@ -1,18 +1,20 @@
+// generic code systems
+Alias: $sct = http://snomed.info/sct
+Alias: $DCM = http://dicom.nema.org/resources/ontology/DCM
+
+// HL7
+
 Alias: $audit-event-type = http://terminology.hl7.org/CodeSystem/audit-event-type
 Alias: $audit-event-type-valueset = http://hl7.org/fhir/ValueSet/audit-event-type
-Alias: $DCM = http://dicom.nema.org/resources/ontology/DCM
+Alias: $bcp47 = http://tools.ietf.org/html/bcp47
 Alias: $dicom-audit-lifecycle = http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle
 Alias: $endpoint-connection-type = http://terminology.hl7.org/CodeSystem/endpoint-connection-type
 Alias: $endpoint-connection-type-valueset = http://koppeltaal.nl/fhir/ValueSet/endpoint-connection-type
 Alias: $endpoint-payload-type = http://terminology.hl7.org/CodeSystem/endpoint-payload-type
 Alias: $iso-21089-lifecycle = http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle
-Alias: $koppeltaal-definition-topic = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-definition-topic
-Alias: $koppeltaal-endpoint-connection-type = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type
 Alias: $object-role = http://terminology.hl7.org/CodeSystem/object-role
-Alias: $organization-type = http://nictiz.nl/fhir/NamingSystem/organization-type
 Alias: $resource-types = http://hl7.org/fhir/resource-types
 Alias: $restful-interaction = http://hl7.org/fhir/restful-interaction
-Alias: $sct = http://snomed.info/sct
 Alias: $security-source-type = http://terminology.hl7.org/CodeSystem/security-source-type
 Alias: $task-code = http://hl7.org/fhir/CodeSystem/task-code
 Alias: $v3-AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse
@@ -24,5 +26,11 @@ Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v3-ParticipationType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $v3-RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
-Alias: $bcp47 = http://tools.ietf.org/html/bcp47
+
+// Nictiz
+Alias: $nl-core-CareTeam = http://nictiz.nl/fhir/StructureDefinition/nl-core-CareTeam
+Alias: $organization-type = http://nictiz.nl/fhir/NamingSystem/organization-type
+
 Alias: $koppeltaal-task-code = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-task-code
+Alias: $koppeltaal-definition-topic = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-definition-topic
+Alias: $koppeltaal-endpoint-connection-type = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type
