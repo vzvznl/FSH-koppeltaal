@@ -3,6 +3,9 @@ InstanceOf: Patient
 Description: "Example of Patient with resource origin extension populated"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Patient"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of Patient with resource origin extension populated</div>"
 * insert NLlang
 * identifier
   * use = #official

@@ -3,6 +3,9 @@ InstanceOf: Practitioner
 Description: "Example of Practitioner"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Practitioner"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of Practitioner</div>"
 * insert NLlang
 * identifier
   * use = #official

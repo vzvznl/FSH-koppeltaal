@@ -3,6 +3,9 @@ InstanceOf: Patient
 Description: "Example of Patient with full name and maiden name"
 Usage: #example
 * meta.profile = "http://nictiz.nl/fhir/StructureDefinition/nl-core-Patient"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of Patient with full name and maiden name</div>"
 * insert NLlang
 * extension
   * extension
