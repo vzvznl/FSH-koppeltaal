@@ -15,7 +15,7 @@ Usage: #definition
 * code = #instantiates
 * base = #Task
 * type = #reference
-* expression = "Task.extension('http://koppeltaal.nl/fhir/StructureDefinition/instantiates')"
+* expression = "Task.extension('http://vzvz.nl/fhir/StructureDefinition/instantiates')"
 * target = #ActivityDefinition
 * chain[0] = "publisherId"
 * chain[+] = "topic"
