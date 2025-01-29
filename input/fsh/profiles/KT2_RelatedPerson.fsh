@@ -2,7 +2,6 @@ Profile: KT2_RelatedPerson
 Parent: NlcoreContactPerson
 Description: "A related person is a person with a specific role and/or relationship to the patient to assist in the therapy"
 Id: KT2RelatedPerson
-* ^url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
 * ^status = #draft
 * insert ContactAndPublisher
 * insert Origin
