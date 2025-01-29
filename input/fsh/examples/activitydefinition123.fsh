@@ -10,7 +10,7 @@ Usage: #example
 * insert NLlang
 * extension[0]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension"
-  * valueReference = Reference(Endpoint/endpoint123)
+  * valueReference = Reference(endpoint123)
     * type = "Endpoint"
 * extension[+]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2PublisherId"

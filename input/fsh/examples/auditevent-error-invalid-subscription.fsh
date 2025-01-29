@@ -12,10 +12,10 @@ Usage: #example
 * outcome = #4
 * outcomeDesc = "Invalid subscription criteria submitted: Patient?status=active Failed to parse match URL[Patient?status=active] - Resource type Patient does not have a parameter with name: status\n"
 * agent.type = $DCM#110153
-* agent.who = Reference(Device/device-volledig)
+* agent.who = Reference(device-volledig)
 * agent.requestor = true
 * source.site = "Koppeltaal Domein X"
-* source.observer = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+* source.observer = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
 * source.observer.type = "Device"
 * entity.type = $resource-types#OperationOutcome "OperationOutcome"
 * entity.description = "Subscription submission failed"

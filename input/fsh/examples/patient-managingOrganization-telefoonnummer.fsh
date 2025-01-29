@@ -31,5 +31,5 @@ Usage: #example
     * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
     * valueCodeableConcept.coding = $v3-AdministrativeGender#F "Female"
 * birthDate = "1972-11-12"
-* managingOrganization = Reference(Organization/organization-minimaal)
+* managingOrganization = Reference(organization-minimaal)
   * type = "Organization"

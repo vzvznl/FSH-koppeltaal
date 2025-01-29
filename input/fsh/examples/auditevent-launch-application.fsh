@@ -15,15 +15,15 @@ Usage: #example
 * outcome = #0
 * agent
   * type = $DCM#110151 "Application Launcher"
-  * who = Reference(Device/device-volledig)
+  * who = Reference(device-volledig)
     * type = "Device"
   * requestor = true
 * source
   * site = "Koppeltaal Domein X"
-  * observer = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+  * observer = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
     * type = "Device"
 * entity
-  * what = Reference(Device/device-volledig)
+  * what = Reference(device-volledig)
     * type = "Device"
   * type = $resource-types#Device "Application"
 * extension[0]

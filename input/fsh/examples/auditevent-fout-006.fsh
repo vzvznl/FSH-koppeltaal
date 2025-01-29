@@ -17,7 +17,7 @@ Usage: #example
   * type = $DCM#110153
   * who = Reference(Device/123)
   * requestor = true
-* source.observer = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+* source.observer = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
   * type = "Device"
   * identifier.value = "Koppeltaal.nl"
 * entity

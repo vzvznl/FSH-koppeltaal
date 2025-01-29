@@ -10,23 +10,23 @@ Usage: #example
   * value = "careteam-1234"
 * status = #active
 * name = "Careteam depressie"
-* subject = Reference(Patient/patient-met-resource-origin) "Patient, Berta Botje"
+* subject = Reference(patient-met-resource-origin) "Patient, Berta Botje"
   * type = "Patient"
 * participant[0]
   * role
     * coding = $v3-ParticipationType#RESP
     * text = "Hoofdbehandelaar"
-  * member = Reference(Practitioner/practitioner-volledig) "K. Jongen"
+  * member = Reference(practitioner-volledig) "K. Jongen"
     * type = "Practitioner"
 * participant[+]
   * role
     * coding = $sct#768832004
     * text = "casemanager"
-  * member = Reference(Practitioner/practitioner-minimaal) "M. Splinter"
+  * member = Reference(practitioner-minimaal) "M. Splinter"
     * type = "Practitioner"
-* managingOrganization = Reference(Organization/organization-naam-type)
+* managingOrganization = Reference(organization-naam-type)
   * type = "Organization"
 * extension
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
-  * valueReference = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+  * valueReference = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
     * type = "Device"

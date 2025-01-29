@@ -15,7 +15,7 @@ Usage: #example
 * outcome = #0
 * agent[0]
   * type = $DCM#110153
-  * who = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+  * who = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
   * requestor = true
 * agent[+]
   * type = $DCM#110152
@@ -23,7 +23,7 @@ Usage: #example
   * requestor = false
 * source
   * site = "Koppeltaal Domein X"
-  * observer = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+  * observer = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
     * type = "Device"
   * type = $security-source-type#4 "Application Server"
 * entity

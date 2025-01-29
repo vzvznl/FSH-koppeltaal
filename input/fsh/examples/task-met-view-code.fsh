@@ -3,10 +3,10 @@ InstanceOf: Task
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Task"
 * extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
-* extension[=].valueReference = Reference(Device/device-volledig)
+* extension[=].valueReference = Reference(device-volledig)
 * extension[=].valueReference.type = "Device"
 * extension[+].url = "http://vzvz.nl/fhir/StructureDefinition/instantiates"
-* extension[=].valueReference = Reference(ActivityDefinition/activitydefinition234)
+* extension[=].valueReference = Reference(activitydefinition234)
 * extension[=].valueReference.type = "ActivityDefinition"
 * identifier.system = "http://koppeltaal-systeem.nl/koppeltaal-TaskIdentifier"
 * identifier.value = "54321"

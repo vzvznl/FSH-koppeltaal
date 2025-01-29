@@ -6,11 +6,11 @@ Usage: #example
 * insert NLlang
 * extension[0]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
-  * valueReference = Reference(Device/device-volledig)
+  * valueReference = Reference(device-volledig)
     * type = "Device"
 * extension[+]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/instantiates"
-  * valueReference = Reference(ActivityDefinition/activitydefinition234)
+  * valueReference = Reference(activitydefinition234)
     * type = "ActivityDefinition"
 * identifier
   * system = "http://koppeltaal-systeem.nl/koppeltaal-TaskIdentifier"

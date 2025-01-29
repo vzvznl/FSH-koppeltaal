@@ -14,5 +14,5 @@ Usage: #example
 * name = "St. Testziekenhuis, Testorganisatie Koppeltaal"
 * extension
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
-  * valueReference = Reference(Device/ba33314a-795a-4777-bef8-e6611f6be645)
+  * valueReference = Reference(ba33314a-795a-4777-bef8-e6611f6be645)
     * type = "Device"

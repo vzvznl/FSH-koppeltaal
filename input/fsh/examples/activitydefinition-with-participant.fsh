@@ -6,7 +6,7 @@ Usage: #example
   * status = #generated
   * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Activitydefinition with participant</div>"
 * extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension"
-* extension[=].valueReference = Reference(Endpoint/endpoint123)
+* extension[=].valueReference = Reference(endpoint123)
 * extension[=].valueReference.type = "Endpoint"
 * extension[+].url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2PublisherId"
 * extension[=].valueId = "ID1234-002"

@@ -9,7 +9,7 @@ Usage: #example
 * identifier[=].system = "http://www.testsysteem.xxx/patientrelatedperson"
 * identifier[=].value = "12345"
 * active = true
-* patient = Reference(Patient/patient-met-resource-origin)
+* patient = Reference(patient-met-resource-origin)
 * relationship[0] = $v3-RoleCode#MTH "Mother"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#21 "Cliëntondersteuner"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.23.1#100001 "Mantelzorger"

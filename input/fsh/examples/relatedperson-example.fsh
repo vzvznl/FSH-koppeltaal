@@ -9,7 +9,7 @@ Usage: #example
 * identifier[=].system = "http://www.testsysteem.xxx/patientrelatedperson"
 * identifier[=].value = "12345"
 * active = true
-* patient = Reference(Patient/patient-volledig-adres)
+* patient = Reference(patient-volledig-adres)
 * relationship[0] = $v3-RoleCode#MTH "Mother"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#21 "Cliëntondersteuner"
 * name.extension.url = "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order"

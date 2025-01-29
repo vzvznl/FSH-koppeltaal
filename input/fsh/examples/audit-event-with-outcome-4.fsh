@@ -6,7 +6,7 @@ Usage: #example
   * status = #generated
   * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Auditevent with OperationOutcome</div>"
 * extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
-* extension[=].valueReference = Reference(Device/device-volledig)
+* extension[=].valueReference = Reference(device-volledig)
 * extension[=].valueReference.type = "Device"
 * extension[+].url = "http://koppeltaal.nl/fhir/StructureDefinition/request-id"
 * extension[=].valueId = "f272ae9f83a49bdd"
@@ -18,10 +18,10 @@ Usage: #example
 * recorded = "2023-01-10T12:50:22+01:00"
 * outcome = #4
 * agent.type = $DCM#110153
-* agent.who = Reference(Device/device-volledig)
+* agent.who = Reference(device-volledig)
 * agent.requestor = true
 * source.site = "domein1"
-* source.observer = Reference(Device/device-volledig)
+* source.observer = Reference(device-volledig)
 * source.observer.type = "Device"
 * source.type = $security-source-type#4 "Application Server"
 * entity[0].what = Reference(o1)

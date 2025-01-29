@@ -6,11 +6,11 @@ Usage: #example
 * insert NLlang
 * extension[0]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
-  * valueReference = Reference(Device/device-volledig)
+  * valueReference = Reference(device-volledig)
     * type = "Device"
 * extension[+]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/instantiates"
-  * valueReference = Reference(ActivityDefinition/activitydefinition123)
+  * valueReference = Reference(activitydefinition123)
     * type = "ActivityDefinition"
 * identifier
   * system = "http://koppeltaal.nl/taskIdentifier"
@@ -24,9 +24,9 @@ Usage: #example
 * executionPeriod
   * start = "2023-01-20T08:25:05+01:00"
   * end = "2023-01-21T08:25:05+01:00"
-* requester = Reference(Practitioner/practitioner-minimaal)
+* requester = Reference(practitioner-minimaal)
   * type = "Practitioner"
-* owner = Reference(Patient/patient-volledige-naam-bsn)
+* owner = Reference(patient-volledige-naam-bsn)
   * type = "Patient"
 * status = #ready
 * authoredOn = "2023-01-19T08:25:05+01:00"

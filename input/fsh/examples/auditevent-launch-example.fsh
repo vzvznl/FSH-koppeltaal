@@ -20,14 +20,14 @@ Usage: #example
 * outcome = #0
 * agent
   * type = $DCM#110153
-  * who = Reference(Device/autorisatieserver)
+  * who = Reference(autorisatieserver)
     * type = "Device"
   * requestor = true
 * source
   * site = "domeinnaam"
-  * observer = Reference(Device/autorisatieserver)
+  * observer = Reference(autorisatieserver)
     * type = "Device"
 * entity
-  * what = Reference(Patient/patient-volledigenaam)
+  * what = Reference(patient-volledigenaam)
     * type = "Patient"
   * role = $object-role#1 "Patient"

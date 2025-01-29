@@ -11,5 +11,5 @@ Usage: #example
 * active = true
 * type = urn:oid:2.16.840.1.113883.2.4.6.7#0335 "Medisch specialisten, geriatrie"
 * name = "Geriatrie afdeling van St. Testziekenhuis"
-* partOf = Reference(Organization/organization-naam-type)
+* partOf = Reference(organization-naam-type)
   * type = "Organization"
