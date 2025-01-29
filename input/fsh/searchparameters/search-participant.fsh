@@ -6,11 +6,7 @@ Usage: #definition
 * name = "KT2_SearchParticipant"
 * status = #active
 * date = "2024-07-29"
-* publisher = "VZVZ"
-* contact.name = "VZVZ"
-* contact.telecom.system = #url
-* contact.telecom.value = "https://www.vzvz.nl"
-* contact.telecom.use = #work
+* insert ContactAndPublisherInstance
 * description = "Find the participant of an ActivityDefinition"
 * purpose = "Search ActivityDefinitions based on participant"
 * code = #participant
