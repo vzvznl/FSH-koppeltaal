@@ -8,6 +8,6 @@ Context: "Account | ActivityDefinition | AdverseEvent | AllergyIntolerance | App
 * ^date = "2023-01-24"
 * insert ContactAndPublisher
 * . ..1
-  * ^definition = "Defines the author of the resource."
-  * ^comment = "Part of the authorisation model. Upon creation of the resource this extension is set to the device that created it."
+* . ^definition = "Defines the author of the resource."
+* . ^comment = "Part of the authorisation model. Upon creation of the resource this extension is set to the device that created it."
 * value[x] only Reference(KT2_Device)

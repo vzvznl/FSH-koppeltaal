@@ -8,5 +8,5 @@ Context: AuditEvent
 * ^date = "2023-01-24"
 * insert ContactAndPublisher
 * . ..1
-  * ^comment = "This traceId is intended to track a log entry across multiple logs"
+* . ^comment = "This traceId is intended to track a log entry across multiple logs"
 * value[x] only id
