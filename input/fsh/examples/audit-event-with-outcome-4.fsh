@@ -24,7 +24,7 @@ Usage: #example
 * source.observer = Reference(device-volledig)
 * source.observer.type = "Device"
 * source.type = $security-source-type#4 "Application Server"
-* entity[0].what = Reference(o1)
+* entity[0].what = Reference(Inline-no-matching-profile)
 * entity[=].type = $resource-types#OperationOutcome "OperationOutcome"
 * entity[+].type = $resource-types#Patient "Patient"
-* contained = o1
+* contained = Inline-no-matching-profile
