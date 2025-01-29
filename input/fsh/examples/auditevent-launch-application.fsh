@@ -4,6 +4,9 @@ Title: "auditevent-launch-application"
 Description: "Example of AuditEvent on application launch"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of AuditEvent on application launch</div>"
 * insert NLlang
 * type = $DCM#110100 "Application Activity"
 * subtype = $DCM#110120 "Application Start"

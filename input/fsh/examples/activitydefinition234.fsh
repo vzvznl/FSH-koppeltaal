@@ -4,6 +4,9 @@ Title: "Routine outcome monitoring"
 Description: "Example of an ActivityDefinition that defines a questionnaire"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2ActivityDefinition"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of an ActivityDefinition that defines a questionnaire</div>"
 * insert NLlang
 * extension[0]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension"

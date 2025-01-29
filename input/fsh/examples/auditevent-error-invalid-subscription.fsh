@@ -2,6 +2,9 @@ Instance: auditevent-error-invalid-subscription
 InstanceOf: AuditEvent
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Auditevent with error about invalid subscripton</div>"
 * type = $audit-event-type#rest "Restful Operation"
 * subtype = $restful-interaction#create "create"
 * action = #C

@@ -4,6 +4,9 @@ Title: "auditEvent-fout-006"
 Description: "Example of an AuditEvent with an OperationOutcome indicating an error in the update"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of an AuditEvent with an OperationOutcome indicating an error in the update</div>"
 * insert NLlang
 * type = $audit-event-type#rest "Restful Operation"
 * subtype = $restful-interaction#update "update"

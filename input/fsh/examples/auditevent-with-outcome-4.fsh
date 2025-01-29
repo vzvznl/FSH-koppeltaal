@@ -6,6 +6,9 @@ Usage: #example
   * profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
   * lastUpdated = "2023-01-10T12:50:22Z"
   * versionId = "1"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of AuditEvent with create Operation resulting in outcome code 4</div>"
 * insert NLlang
 * extension[0]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"

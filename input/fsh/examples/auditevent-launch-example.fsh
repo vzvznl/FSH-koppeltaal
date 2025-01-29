@@ -7,6 +7,9 @@ Usage: #example
   * lastUpdated = "2023-06-12T10:27:31.682+00:00"
   * source = "#7dfe42ce-c833-48"
   * profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of AuditEvent on user authentication</div>"
 * insert NLlang
 * extension
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"

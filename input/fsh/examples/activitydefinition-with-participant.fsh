@@ -2,6 +2,9 @@ Instance: activitydefinition-with-participant
 InstanceOf: ActivityDefinition
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2ActivityDefinition"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Activitydefinition with participant</div>"
 * extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension"
 * extension[=].valueReference = Reference(Endpoint/endpoint123)
 * extension[=].valueReference.type = "Endpoint"

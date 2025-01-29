@@ -4,6 +4,9 @@ Title: "auditevent-create-patient"
 Description: "Example of an AuditEvent about creating a Patient"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of an AuditEvent about creating a Patient</div>"
 * insert NLlang
 * type = $audit-event-type#rest "Restful Operation"
 * subtype = $restful-interaction#create "create"
