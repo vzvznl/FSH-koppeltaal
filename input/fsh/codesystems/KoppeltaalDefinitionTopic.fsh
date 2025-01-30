@@ -2,7 +2,7 @@ CodeSystem: KoppeltaalDefinitionTopic
 Id: koppeltaal-definition-topic
 Title: "Koppeltaal Definition Topic"
 Description: "High-level categorization of the definition, used for indicating special patient initialised activities"
-* ^status = #draft
+* ^status = #active
 * ^content = #complete
 * ^meta.lastUpdated = "2024-06-18T00:00:00+02:00"
 * ^url = "http://vzvz.nl/fhir/CodeSystem/koppeltaal-definition-topic"
