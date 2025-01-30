@@ -1,7 +1,10 @@
-Instance: related-person-contactperson
+Instance: relatedperson-contactperson
 InstanceOf: RelatedPerson
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>RelatedPerson is contact person</div>"
 * identifier.use = #official
 * identifier.system = "urn:oid:2.16.840.1.68469.16.4.3.5.6"
 * identifier.value = "55779933"
