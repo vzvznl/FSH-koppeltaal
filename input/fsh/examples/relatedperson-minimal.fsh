@@ -11,6 +11,7 @@ Usage: #example
 * identifier.system = "urn:oid:2.16.840.1.68469.16.4.3.5.6"
 * identifier.value = "55779933"
 * relationship = $v3-RoleCode#DAUC "Daughter"
+* relationship[+] = $rolcode-vektis-urn#21 "Cliëntondersteuner"
 * name[0]
   * use = #official
   * text = "M. Buurvrouw"
