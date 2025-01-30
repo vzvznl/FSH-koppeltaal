@@ -34,4 +34,5 @@ Alias: $organization-type = http://nictiz.nl/fhir/NamingSystem/organization-type
 Alias: $koppeltaal-task-code = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-task-code
 Alias: $koppeltaal-definition-topic = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-definition-topic
 Alias: $koppeltaal-endpoint-connection-type = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type
+Alias: $rolcode-vektis-urn = urn:oid:2.16.840.1.113883.2.4.3.11.22.472
 Alias: $task-instantiates = http://vzvz.nl/fhir/StructureDefinition/instantiates

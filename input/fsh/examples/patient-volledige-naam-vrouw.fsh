@@ -85,8 +85,8 @@ Usage: #example
         * version = "2020-10-26T00:00:00"
 * maritalStatus = $v3-MaritalStatus#D "Divorced"
 * contact
-  * relationship[0] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#01 "Eerste relatie/contactpersoon"
-  * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#07 "Hulpverlener"
+  * relationship[0] = $rolcode-vektis-urn#01 "Eerste relatie/contactpersoon"
+  * relationship[+] = $rolcode-vektis-urn#07 "Hulpverlener"
   * name
     * use = #official
     * text = "J.P.M. van Putten-van der Giessen"
