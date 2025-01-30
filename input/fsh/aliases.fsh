@@ -31,7 +31,8 @@ Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $nl-core-CareTeam = http://nictiz.nl/fhir/StructureDefinition/nl-core-CareTeam
 Alias: $organization-type = http://nictiz.nl/fhir/NamingSystem/organization-type
 
-Alias: $koppeltaal-task-code = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-task-code
+Alias: $koppeltaal-task-code = http://vzvz.nl/fhir/CodeSystem/koppeltaal-task-code
+Alias: $koppeltaal-task-code-vs = http://koppeltaal.nl/fhir/ValueSet/koppeltaal-task-code
 Alias: $koppeltaal-definition-topic = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-definition-topic
 Alias: $koppeltaal-endpoint-connection-type = http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type
 Alias: $rolcode-vektis-urn = urn:oid:2.16.840.1.113883.2.4.3.11.22.472
