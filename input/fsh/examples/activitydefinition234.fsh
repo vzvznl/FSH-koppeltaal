@@ -26,4 +26,4 @@ Usage: #example
 * subtitle = "voor GGZ Testland"
 * status = #active
 * description = "Vragenlijst ROM"
-* topic.coding = KoppeltaalDefinitionTopic#self-assessment
+* topic.coding = $koppeltaal-definition-topic#self-assessment

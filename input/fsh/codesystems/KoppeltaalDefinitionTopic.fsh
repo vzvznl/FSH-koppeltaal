@@ -5,9 +5,9 @@ Description: "High-level categorization of the definition, used for indicating s
 * ^status = #draft
 * ^content = #complete
 * ^meta.lastUpdated = "2024-06-18T00:00:00+02:00"
-* ^url = "http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-definition-topic"
+* ^url = "http://vzvz.nl/fhir/CodeSystem/koppeltaal-definition-topic"
 * ^identifier.use = #official
-* ^identifier.value = "http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-definition-topic"
+* ^identifier.value = "http://vzvz.nl/fhir/CodeSystem/koppeltaal-definition-topic"
 * ^version = "0.9.0"
 * ^experimental = false
 * ^date = "2024-06-18T00:00:00+02:00"

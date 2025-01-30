@@ -4,9 +4,9 @@ Title: "Koppeltaal Task Code"
 Description: "ValueSet for Task.code"
 * ^name = "KoppeltaalTaskCode_ValueSet"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
-* ^url = "http://koppeltaal.nl/fhir/ValueSet/koppeltaal-task-code"
+* ^url = "http://vzvz.nl/fhir/ValueSet/koppeltaal-task-code"
 * ^identifier.use = #official
-* ^identifier.value = "http://koppeltaal.nl/fhir/ValueSet/koppeltaal-task-code"
+* ^identifier.value = "http://vzvz.nl/fhir/ValueSet/koppeltaal-task-code"
 * ^status = #active
 * ^experimental = false
 * ^date = 2024-07-15T12:00:00+02:00

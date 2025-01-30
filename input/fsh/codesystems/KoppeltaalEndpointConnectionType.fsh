@@ -9,9 +9,9 @@ Description: "Type of endpoint connection as used in Koppeltaal"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/CodeSystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-09-26T12:00:00+02:00"
-* ^url = "http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type"
+* ^url = "http://vzvz.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type"
 * ^identifier.use = #official
-* ^identifier.value = "http://koppeltaal.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type"
+* ^identifier.value = "http://vzvz.nl/fhir/CodeSystem/koppeltaal-endpoint-connection-type"
 * ^version = "0.1"
 * ^experimental = false
 * ^date = "2023-09-26T12:00:00+02:00"

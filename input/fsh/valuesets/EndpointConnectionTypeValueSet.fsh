@@ -7,9 +7,9 @@ Description: "Endpoint connection type ValueSet"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/ValueSet"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-09-26T12:00:00+02:00"
-* ^url = "http://koppeltaal.nl/fhir/ValueSet/endpoint-connection-type"
+* ^url = "http://vzvz.nl/fhir/ValueSet/endpoint-connection-type"
 * ^identifier.use = #official
-* ^identifier.value = "http://koppeltaal.nl/fhir/ValueSet/endpoint-connection-type"
+* ^identifier.value = "http://vzvz.nl/fhir/ValueSet/endpoint-connection-type"
 * ^version = "2023-09-26"
 * ^status = #draft
 * ^experimental = false
