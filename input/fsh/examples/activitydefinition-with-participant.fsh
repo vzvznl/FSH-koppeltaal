@@ -15,7 +15,7 @@ Usage: #example
 * identifier.system = "http://ns.minddistrict.com/content/id"
 * identifier.value = "F9288512-009C-420A-8A3A-F02C5DA8B810"
 * version = "2024-08-15T13:11:34"
-* name = "ROMlijst_F9288512-009C-420A-8A3A-F02C5DA8B810"
+* name = "ROMlijst_F9288512_009C_420A_8A3A_F02C5DA8B810"
 * title = "Routine outcome monitoring"
 * subtitle = "voor GGZ Testland"
 * status = #active
