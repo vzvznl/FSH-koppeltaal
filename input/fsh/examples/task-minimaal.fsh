@@ -3,9 +3,12 @@ InstanceOf: Task
 Description: "Example of a Task"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Task"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Example of a Task</div>"
 * insert NLlang
 * extension
-  * url = "http://koppeltaal.nl/fhir/StructureDefinition/instantiates"
+  * url = $task-instantiates
   * valueReference = Reference(ActivityDefinition/activitydefinition123)
     * type = "ActivityDefinition"
 * identifier

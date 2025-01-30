@@ -24,7 +24,7 @@ Description: "The (FHIR) Task (resource) describes an eHealth task, that is, an 
 * statusReason ..0
 * businessStatus ..0
 * priority = #routine (exactly)
-* code from $koppeltaal-task-code (preferred)
+* code from $koppeltaal-task-code-vs (preferred)
 * code ^comment = "See [Koppeltaal Implementation Guide](https://simplifier.net/guide/koppeltaal/Home/Profile-Specific-Notes/Task.page.md?version=current) for more information on the ValueSet"
 * focus ..0
 * for 1..

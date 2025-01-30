@@ -2,10 +2,13 @@ Instance: task-met-view-code
 InstanceOf: Task
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Task"
+* text
+  * status = #generated
+  * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Task met view code</div>"
 * extension[0].url = "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin"
 * extension[=].valueReference = Reference(device-volledig)
 * extension[=].valueReference.type = "Device"
-* extension[+].url = "http://vzvz.nl/fhir/StructureDefinition/instantiates"
+* extension[+].url = $task-instantiates
 * extension[=].valueReference = Reference(activitydefinition234)
 * extension[=].valueReference.type = "ActivityDefinition"
 * identifier.system = "http://koppeltaal-systeem.nl/koppeltaal-TaskIdentifier"
