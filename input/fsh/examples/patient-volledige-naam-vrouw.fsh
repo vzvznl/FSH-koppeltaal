@@ -50,7 +50,7 @@ Usage: #example
   * system = #phone
     * extension
       * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
-      * valueCodeableConcept = $v3-AddressUse#MC "Mobile Phone"
+      * valueCodeableConcept = $v3-AddressUse#MC "mobile contact"
   * value = "+31611234567"
 * telecom[+]
   * system = #email
@@ -81,7 +81,7 @@ Usage: #example
   * country = "Nederland"
     * extension
       * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
-      * valueCodeableConcept.coding = urn:iso:std:iso:3166#NL "Nederland"
+      * valueCodeableConcept.coding = urn:iso:std:iso:3166#NL "Netherlands"
         * version = "2020-10-26T00:00:00"
 * maritalStatus = $v3-MaritalStatus#D "Divorced"
 * contact
@@ -119,7 +119,7 @@ Usage: #example
     * system = #phone
       * extension
         * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
-        * valueCodeableConcept = $v3-AddressUse#MC "Mobile Phone"
+        * valueCodeableConcept = $v3-AddressUse#MC "mobile contact"
     * value = "+31611234567"
   * telecom[+]
     * system = #email

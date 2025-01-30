@@ -26,7 +26,7 @@ Usage: #example
   * system = #phone
     * extension
       * url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
-      * valueCodeableConcept = $v3-AddressUse#MC "Mobile Phone"
+      * valueCodeableConcept = $v3-AddressUse#MC "mobile contact"
   * value = "+31611234567"
   * use = #home
 * gender = #female
