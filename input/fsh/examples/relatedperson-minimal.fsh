@@ -1,4 +1,4 @@
-Instance: related-person-minimal
+Instance: relatedperson-minimal
 InstanceOf: RelatedPerson
 Description: "Example of a RelatedPerson (neighbour) 2"
 Usage: #example
