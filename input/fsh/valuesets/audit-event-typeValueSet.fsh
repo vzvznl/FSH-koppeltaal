@@ -17,8 +17,8 @@ Description: "ValueSet defining the allowed eventtypes for Koppeltaal"
 * ^date = "2022-09-05T12:00:00+02:00"
 * insert ContactAndPublisher
 
+* include codes from system AuditEventID
 * $DCM#110100 "Application Activity"
 * $DCM#110114 "User Authentication"
-* include codes from system AuditEventID
 * AuditEventID#hl7-v3
 * $iso-21089-lifecycle#transmit "Transmit Record Lifecycle Event"
