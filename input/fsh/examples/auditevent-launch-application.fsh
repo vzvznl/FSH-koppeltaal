@@ -25,7 +25,7 @@ Usage: #example
 * entity
   * what = Reference(device-volledig)
     * type = "Device"
-  * type = $resource-types#Device "Application"
+  * type = $resource-types#Device "Device"
 * extension[0]
   * url = "http://koppeltaal.nl/fhir/StructureDefinition/trace-id"
   * valueId = "8385f600-9bf7-4b96-8467-268070c27677"
