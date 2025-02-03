@@ -8,7 +8,7 @@ Description: "Koppeltaal AuditEvent profile as used to consolidate logging infor
 * insert ContactAndPublisher
 * insert Origin
 * insert Tracing
-* type from $audit-event-type-valueset (extensible)
+* type from $audit-event-type-vs (extensible)
   * insert docAuditEvent
 * subtype 
   * insert docAuditEvent
