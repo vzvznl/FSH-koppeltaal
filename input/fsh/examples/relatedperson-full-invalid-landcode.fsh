@@ -41,7 +41,7 @@ Usage: #example
   * system = #email
   * value = "lizzy@vzvz.nl"
 * telecom[+]
-  * use = #phone
+  * use = #home
   * extension.url = "http://nictiz.nl/fhir/StructureDefinition/ext-Comment"
   * extension.valueString = "alleen bereikbaar in de middag en avond"
   * system.extension.url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
