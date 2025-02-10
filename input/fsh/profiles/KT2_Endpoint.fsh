@@ -8,7 +8,7 @@ Description: "The (FHIR) Endpoint (resource) is a representation of a technical 
 * insert ContactAndPublisher
 * insert Origin
 * connectionType = KoppeltaalEndpointConnectionType#hti-smart-on-fhir (exactly)
-* connectionType from $endpoint-connection-type-valueset (extensible)
+* connectionType from $koppeltaal-endpoint-connection-type-vs (extensible)
 * managingOrganization only Reference(KT2_Organization)
 * contact ..0
 * period ..0
