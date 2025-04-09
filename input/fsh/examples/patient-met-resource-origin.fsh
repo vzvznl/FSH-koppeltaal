@@ -14,6 +14,7 @@ Usage: #example
 * active = true
 * name
   * use = #official
+  * text = "Berta Botje"
   * family = "Botje"
     * extension
       * url = "http://hl7.org/fhir/StructureDefinition/humanname-partner-name"
