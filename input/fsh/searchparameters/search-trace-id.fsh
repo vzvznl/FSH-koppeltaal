@@ -1,4 +1,4 @@
-Instance: trace-id
+Instance: search-trace-id
 InstanceOf: SearchParameter
 Usage: #definition
 * meta.lastUpdated = "2023-01-24T13:07:53.6125521+00:00"
@@ -8,7 +8,11 @@ Usage: #definition
 * status = #active
 * experimental = false
 * date = "2023-01-24"
-* insert ContactAndPublisherInstance
+* publisher = "VZVZ"
+* contact.name = "VZVZ"
+* contact.telecom.system = #url
+* contact.telecom.value = "https://www.vzvz.nl"
+* contact.telecom.use = #work
 * description = "Search trace id for tracking audit events"
 * code = #traceId
 * base = #AuditEvent
