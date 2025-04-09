@@ -11,8 +11,9 @@ Usage: #example
 * extension[+].url = $task-instantiates
 * extension[=].valueReference = Reference(activitydefinition234)
 * extension[=].valueReference.type = "ActivityDefinition"
-* identifier.system = "http://koppeltaal-systeem.nl/koppeltaal-TaskIdentifier"
-* identifier.value = "54321"
+* identifier[0]
+  * system = "http://koppeltaal-systeem.nl/koppeltaal-TaskIdentifier"
+  * value = "54321"
 * for.identifier.use = #official
 * for.identifier.system = "https://irma.app"
 * for.identifier.value = "bertabotje01@vzvz.nl"
