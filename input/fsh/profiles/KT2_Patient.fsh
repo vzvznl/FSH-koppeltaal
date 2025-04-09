@@ -24,8 +24,9 @@ Description: "The (FHIR) Patient (resource) is a representation of a person who 
     * insert notUsedKT2
   * period 
     * insert notUsedKT2
-* name[nameInformation-GivenName].text 
-  * insert notUsedKT2
+* name[nameInformation-GivenName] ^sliceName = "nameInformation-GivenName"
+  * text 
+    * insert notUsedKT2
 * telecom[telephoneNumbers]
   * rank 
     * insert notUsedKT2
@@ -41,7 +42,7 @@ Description: "The (FHIR) Patient (resource) is a representation of a person who 
 * deceasedBoolean ..0
 * deceasedDateTime ..0
 * address
-  * extension[addressType] ^sliceName = "addressType"
+  * extension[addressType]
     * insert notUsedKT2
   * type 
     * insert notUsedKT2
@@ -51,12 +52,12 @@ Description: "The (FHIR) Patient (resource) is a representation of a person who 
     * insert notUsedKT2
   * state 
     * insert notUsedKT2
-  // * country.extension[countryCode] ^sliceName = "countryCode"
-  //   * insert docCountryCodes
-  //   * value[x] 
-  //     * insert docCountryCodes
-  // * period 
-  //   * insert notUsedKT2
+  * country.extension[countryCode]
+    * insert docCountryCodes
+    * value[x] 
+      * insert docCountryCodes
+  * period 
+    * insert notUsedKT2
 * maritalStatus ..0
 * multipleBirthBoolean ..0
 * multipleBirthInteger ..0
