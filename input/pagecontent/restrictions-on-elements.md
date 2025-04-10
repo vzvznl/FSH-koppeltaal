@@ -31,13 +31,14 @@ Therefore this section of the Implementation Guide lists all the elements in eve
 
 ### Identifier
 
-The Identifier data type restricts the use to the elements `use`, `system` and `value`. Other elements are not to be used.
+The Identifier datatype restricts the use to the elements `use`, `system` and `value`. Other elements are not to be used.
 
-{{render:guides-koppeltaal-assets-identifier-restrictions}} 
+![identifier-restrictions](assets/images/identifier-restrictions.png)
+
+
 
 ### CodeableConcept and Coding
 
 The `userSelected` element of the Coding data type is not to be used. The Coding data type is also part of the CodeableConcept data type.
 
-{{render:guides-koppeltaal-assets-coding-restrictions}} 
-
+![coding-restrictions](assets/images/coding-restrictions.png)
