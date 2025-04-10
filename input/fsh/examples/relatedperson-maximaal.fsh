@@ -1,5 +1,6 @@
 Instance: relatedperson-maximaal
 InstanceOf: RelatedPerson
+Description: "RelatedPerson with as much elements filled in as possible"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
 * text

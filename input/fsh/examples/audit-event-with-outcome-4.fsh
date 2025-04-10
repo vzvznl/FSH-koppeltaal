@@ -1,5 +1,6 @@
 Instance: audit-event-with-outcome-4
 InstanceOf: AuditEvent
+Description: "Auditevent with OperationOutcome"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
 * text

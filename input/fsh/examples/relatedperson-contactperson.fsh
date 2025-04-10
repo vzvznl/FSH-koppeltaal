@@ -1,5 +1,6 @@
 Instance: relatedperson-contactperson
 InstanceOf: RelatedPerson
+Description: "The RelatedPerson is the contact person"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
 * text

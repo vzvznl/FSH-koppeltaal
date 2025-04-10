@@ -1,5 +1,6 @@
 Instance: task-met-view-code
 InstanceOf: Task
+Description: "Task with view code set"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2Task"
 * text

@@ -1,5 +1,6 @@
 Instance: nl-core-TreatmentDirective2-01-RelatedPerson-01
 InstanceOf: NlcoreContactPerson
+Description: "Nictiz Example of RelatedPerson only to test validation"
 Usage: #example
 * id = "relatedperson-nl-core-TreatmentDirective2-01"
 * patient = Reference(Patient/nl-core-Patient-01) "Patient, Johanna Petronella Maria (Jo) van Putten-van der Giessen"

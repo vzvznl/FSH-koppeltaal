@@ -1,5 +1,6 @@
 Instance: relatedperson-multiple-codes
 InstanceOf: RelatedPerson
+Description: "RelatedPerson with multiple codes for relationship"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
 * text

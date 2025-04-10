@@ -1,5 +1,6 @@
 Instance: auditevent-error-invalid-subscription
 InstanceOf: AuditEvent
+Description: "Auditevent with error about invalid subscription"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
 * text

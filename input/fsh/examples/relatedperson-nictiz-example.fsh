@@ -2,6 +2,7 @@ Alias: $v3-AddressUse = http://terminology.hl7.org/CodeSystem/v3-AddressUse
 
 Instance: relatedperson-nictiz-example
 InstanceOf: NlcoreContactPerson
+Description: "Nictiz Example of RelatedPerson only to test validation"
 Usage: #example
 * id = "nl-core-ContactPerson-01-nictiz"
 * patient

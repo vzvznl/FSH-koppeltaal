@@ -1,5 +1,6 @@
 Instance: relatedperson-example
 InstanceOf: RelatedPerson
+Description: "RelatedPerson example"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
 * text
