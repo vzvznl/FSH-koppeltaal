@@ -47,6 +47,8 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
   apply-contact: false
   apply-jurisdiction: false
   apply-publisher: false
+  excludettl: true
+  pin-canonicals: pin-multiples
   path-resource:
     - input/resources
     - fsh-generated/resources
