@@ -38,6 +38,8 @@ pages:
       title: Restriction on usage of elements
     country-codes.md: 
       title: Country Codes
+    info-relatedperson.md:
+      title: RelatedPerson
     examples.md:
         title: Examples
     strict-use-of-nameinformation.md:
@@ -81,6 +83,7 @@ menu:
     Based on nl-core profiles: based-on-nl-core-profiles.html
     Restriction on usage of elements: restrictions-on-elements.html
     Country Codes: country-codes.html
+    Related Person: info-relatedperson.html
     Examples: examples.html
     Strict use of Name Information: strict-use-of-nameinformation.html
   Artifacts: artifacts.html
