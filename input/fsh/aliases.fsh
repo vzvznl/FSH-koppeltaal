@@ -6,7 +6,7 @@ Alias: $DCM = http://dicom.nema.org/resources/ontology/DCM
 
 // Alias: $audit-event-type = http://terminology.hl7.org/CodeSystem/audit-event-type
 Alias: $auditevent-type-vs = http://hl7.org/fhir/ValueSet/audit-event-type
-Alias: $bcp47 = http://tools.ietf.org/html/bcp47
+Alias: $bcp47 = urn:ietf:bcp:47
 Alias: $dicom-audit-lifecycle = http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle
 Alias: $endpoint-connection-type = http://terminology.hl7.org/CodeSystem/endpoint-connection-type
 Alias: $endpoint-payload-type = http://terminology.hl7.org/CodeSystem/endpoint-payload-type
