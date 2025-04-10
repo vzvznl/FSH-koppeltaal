@@ -1,5 +1,6 @@
-Instance: relatedperson-full-invalid-landcode
+Instance: relatedperson-full
 InstanceOf: RelatedPerson
+Description: "RelatedPerson multiple relationships"
 Usage: #example
 * meta.profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2RelatedPerson"
 * text
@@ -14,7 +15,7 @@ Usage: #example
   * system = "http://www.testsysteem.xxx/patientrelatedperson"
   * value = "${RelPersIdentifier2}"
 * active = true
-* patient = Reference(Patient/ca030c77-1506-45ab-89eb-9858f22c3763)
+* patient = Reference(Patient/patient-botje-minimaal)
 * relationship[0] = $v3-NullFlavor#OTH "Other"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#21 "Cliëntondersteuner"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#14 "Bewindvoerder"
@@ -68,7 +69,7 @@ Usage: #example
   * city = "'s-Gravenhage"
   * postalCode = "2495AA"
   * country.extension.url = "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification"
-  * country.extension.valueCodeableConcept = urn:iso:std:iso:3166#XXXX "Netherlands"
+  * country.extension.valueCodeableConcept = urn:iso:std:iso:3166#NL "Netherlands"
   * country = "Nederland"
 * period.start = "2024-07-10T08:02:05+02:00"
 * period.end = "2040-02-15T12:20:05+01:00"
