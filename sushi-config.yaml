@@ -54,6 +54,14 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
     - input/pagecontent
     - input/intro-notes
     - fsh-generated/includes
+  special-url:
+    - http://vzvz.nl/fhir/StructureDefinition/instantiates
+    - http://vzvz.nl/fhir/ValueSet/endpoint-connection-type
+    - http://vzvz.nl/fhir/ValueSet/koppeltaal-definition-topic
+    - http://vzvz.nl/fhir/ValueSet/koppeltaal-task-code
+    - urn:oid:2.16.840.1.113883.2.4.3.11.22.472
+  special-url-base:
+    - http://vzvz.nl/fhir/
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
