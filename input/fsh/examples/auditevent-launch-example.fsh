@@ -3,7 +3,6 @@ InstanceOf: AuditEvent
 Description: "Example of AuditEvent on user authentication"
 Usage: #example
 * meta
-  * source = "#7dfe42ce-c833-48"
   * profile = "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent"
 * text
   * status = #generated
