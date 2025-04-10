@@ -38,6 +38,9 @@ pages:
       title: Strict use of Name Information
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
+  apply-contact: false
+  apply-jurisdiction: false
+  apply-publisher: false
   path-resource:
     - input/resources
     - fsh-generated/resources

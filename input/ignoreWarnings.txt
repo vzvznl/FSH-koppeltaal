@@ -24,6 +24,3 @@ For the complex type%
 
 # Looks like a bug in IG Publisher
 ActivityDefinition.date: max allowed = 0%
-ActivityDefinition.publisher: max allowed = 0%
-ActivityDefinition.contact: max allowed = 0%
-ActivityDefinition.jurisdiction: max allowed = 0%
