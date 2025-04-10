@@ -66,8 +66,8 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
     - urn:oid:2.16.840.1.113883.2.4.3.11.22.472
   special-url-base:
     - http://vzvz.nl/fhir/
-  version-comparison: #n/a
-  resource-language-policy: #all-realm
+  version-comparison: "n/a"
+  usage-stats-opt-out: true
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
