@@ -14,7 +14,7 @@ Note: for the code `transmit` use
 
 ## AuditEvent.subtype
 
-The ValueSet for this element contains codes from several Codesystems. See: [ValueSet AuditEvent Subtype](http://hl7.org/fhir/R4B/valueset-audit-event-sub-type.html)
+The ValueSet for this element contains codes from several Codesystems. See: [ValueSet AuditEvent Subtype](http://hl7.org/fhir/ValueSet/audit-event-sub-type)
 
 For FHIR actions such as `read`, `search` and `create`, use the codes from the CodeSystem `http://hl7.org/fhir/restful-interaction`. Example:
 
