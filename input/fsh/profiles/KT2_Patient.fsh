@@ -39,8 +39,7 @@ Description: "The (FHIR) Patient (resource) is a representation of a person who 
     * insert notUsedKT2
 * gender 1..
 * birthDate 1..
-* deceasedBoolean ..0
-* deceasedDateTime ..0
+* deceased[x] ..0
 * address
   * extension[addressType]
     * insert notUsedKT2
@@ -59,8 +58,7 @@ Description: "The (FHIR) Patient (resource) is a representation of a person who 
   * period 
     * insert notUsedKT2
 * maritalStatus ..0
-* multipleBirthBoolean ..0
-* multipleBirthInteger ..0
+* multipleBirth[x] ..0
 * photo ..0
 * contact ..0
 * communication ..0
