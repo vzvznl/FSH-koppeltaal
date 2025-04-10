@@ -1,4 +1,4 @@
-Instance: search-participant
+Instance: participant
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "http://koppeltaal.nl/fhir/SearchParameter/participant"

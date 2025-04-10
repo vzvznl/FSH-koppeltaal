@@ -1,4 +1,4 @@
-Instance: search-trace-id
+Instance: trace-id
 InstanceOf: SearchParameter
 Usage: #definition
 * meta.lastUpdated = "2023-01-24T13:07:53.6125521+00:00"
