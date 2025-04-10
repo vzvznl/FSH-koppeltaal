@@ -14,7 +14,6 @@ The link to the list of country codes is hard to find, therefore they are refere
 General guidance: use the international CodeSystem unless there is an explicit use case for using the national CodeSystem.
 
 ## Exception on country codes
-<div class="warning">
-<span>⚠️ Warning</span>
-</div>
+<div class="dragon">
 For Koppeltaal we make the exception that 3-digit country codes, as defined in the ISO list are excluded from usage.
+</div>

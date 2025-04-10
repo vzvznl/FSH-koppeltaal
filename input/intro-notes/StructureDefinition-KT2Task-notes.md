@@ -1,8 +1,8 @@
 
 ## Reference to ActivityDefinition
 
-<div class="warning">
-<p><span>⚠️ Warning</span>&nbsp;As of 2023-11-02 the way the ActivityDefinition is referenced is changed!
+<div class="dragon">
+<p>As of 2023-11-02 the way the ActivityDefinition is referenced is changed!</p>
 </div>
 
 A Task should refer to the ActivityDefinition it instantiates. This provides the possibility to search for Tasks that instantiate a specific instance of an ActivityDefinition, which in turn can be found based on its publisherId.
