@@ -6,7 +6,7 @@ Description: "Nictiz Example of RelatedPerson only to test validation"
 Usage: #example
 * id = "nl-core-ContactPerson-01-nictiz"
 * patient
-  * reference = "Patient/nl-core-Patient-01"
+  * reference = "Patient/patient-volledige-naam-vrouw"
   * type = "Patient"
   * display = "Patient, Johanna Petronella Maria (Jo) van Putten-van der Giessen"
 * relationship[0] = $rolcode-vektis-urn#01 "Eerste relatie/contactpersoon"

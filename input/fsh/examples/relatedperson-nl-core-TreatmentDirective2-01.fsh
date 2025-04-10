@@ -3,7 +3,7 @@ InstanceOf: NlcoreContactPerson
 Description: "Nictiz Example of RelatedPerson only to test validation"
 Usage: #example
 * id = "relatedperson-nl-core-TreatmentDirective2-01"
-* patient = Reference(Patient/nl-core-Patient-01) "Patient, Johanna Petronella Maria (Jo) van Putten-van der Giessen"
+* patient = Reference(Patient/patient-botje-minimaal) "Patient, Johanna Petronella Maria (Jo) van Putten-van der Giessen"
 * patient.type = "Patient"
 * relationship[0] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#01 "Eerste relatie/contactpersoon"
 * relationship[+] = $v3-RoleCode#HUSB "Husband"

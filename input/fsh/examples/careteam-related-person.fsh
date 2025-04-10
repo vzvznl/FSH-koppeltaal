@@ -31,7 +31,7 @@ Usage: #example
   * role
     * coding = $sct#768832004
     * text = "casemanager"
-  * member = Reference(RelatedPerson/related-person-minimal) "M. Buurvrouw"
+  * member = Reference(RelatedPerson/relatedperson-minimal) "M. Buurvrouw"
     * type = "RelatedPerson"
 * managingOrganization = Reference(Organization/organization-naam-type)
   * type = "Organization"

@@ -8,12 +8,12 @@ Usage: #example
   * div = "<div xmlns='http://www.w3.org/1999/xhtml' xml:lang='nl-NL' lang='nl-NL'>Related`person multiple codes</div>"
 * identifier[0].use = #official
 * identifier[=].system = "urn:oid:2.16.840.1.68469.16.4.3.5.6"
-* identifier[=].value = "${IdentifierValue}"
+* identifier[=].value = "112233"
 * identifier[+].use = #usual
 * identifier[=].system = "http://www.testsysteem.xxx/patientrelatedperson"
-* identifier[=].value = "${IdentifierValueRP}"
+* identifier[=].value = "987654322"
 * active = true
-* patient = Reference(Patient/${PatientId})
+* patient = Reference(Patient/patient-botje-minimaal)
 * relationship[0] = $v3-RoleCode#MTH "mother"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.22.472#23 "Contactpersoon"
 * relationship[+] = urn:oid:2.16.840.1.113883.2.4.3.11.60.40.4.23.1#100001 "Mantelzorger"

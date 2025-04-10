@@ -19,7 +19,7 @@ Usage: #example
   * requestor = true
 * agent[+]
   * type = $DCM#110152
-  * who = Reference(Device/volledig-device)
+  * who = Reference(Device/device-volledig)
   * requestor = false
 * source
   * site = "Koppeltaal Domein X"
