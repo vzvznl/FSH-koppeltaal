@@ -86,6 +86,13 @@ menu:
     Related Person: info-relatedperson.html
     Examples: examples.html
     Strict use of Name Information: strict-use-of-nameinformation.html
+  Profile Specific Notes:
+    AuditEvent: StructureDefinition-KT2AuditEvent.html
+    CareTeam: StructureDefinition-KT2CareTeam.html
+    Patient: StructureDefinition-KT2Patient.html
+    RelatedPerson: StructureDefinition-KT2RelatedPerson.html
+    Subscription: StructureDefinition-KT2Subscription.html
+    Task: StructureDefinition-KT2Task.html
   Artifacts: artifacts.html
 
 instanceOptions:
