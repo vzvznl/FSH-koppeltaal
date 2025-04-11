@@ -63,7 +63,7 @@ jobs:
       - name: Unpack the temporary zip with Nictiz packages
         uses: ihiroky/extract-action@v1
         with:
-          file_path: nictiz-packages/nictiz.fhir.nl.r4-with-snapshot.zip 
+          file_path: ./nictiz-packages/nictiz.fhir.nl.r4-with-snapshot.zip 
           extract_dir: /home/runner/.fhir/packages
           verbose: true
 
