@@ -6,3 +6,6 @@ template
 input/fsh-not-used
 fsh-generated
 output
+package.json
+package-lock.json
+package-list.json
