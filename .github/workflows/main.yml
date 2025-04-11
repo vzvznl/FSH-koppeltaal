@@ -55,8 +55,16 @@ jobs:
       - name: Get sushi
         run: npm install -g fsh-sushi
 
+      # - name: Create .fhir/packages
+      #   run: |
+      #     mkdir -p /home/runner/work/FSH-koppeltaal/.fhir/packages
+      #     cd /home/runner/work/FSH-koppeltaal/.fhir/packages
+
       - name: Unpack the temporary zip with Nictiz packages
-        run: mkdir -p /home/runner/work/FSH-koppeltaal/.fhir/packages ; cd /home/runner/work/FSH-koppeltaal/.fhir/packages ; unzip ../../nictiz-packages/nictiz.fhir.nl.r4-with-snapshot.zip 
+        uses: ihiroky/extract-action@v1
+        with:
+          file_path: nictiz-packages/nictiz.fhir.nl.r4-with-snapshot.zip 
+          extract_dir: .fhir/packages
 
       - name: Run the IG Builder
         run: java -jar publisher.jar -ig ig.ini
