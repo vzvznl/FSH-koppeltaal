@@ -55,11 +55,6 @@ jobs:
       - name: Get sushi
         run: npm install -g fsh-sushi
 
-      # - name: Create .fhir/packages
-      #   run: |
-      #     mkdir -p /home/runner/work/FSH-koppeltaal/.fhir/packages
-      #     cd /home/runner/work/FSH-koppeltaal/.fhir/packages
-
       - name: Unpack the temporary zip with Nictiz packages
         uses: ihiroky/extract-action@v1
         with:
