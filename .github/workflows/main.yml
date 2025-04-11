@@ -46,10 +46,10 @@ jobs:
       - name: Get IG Publisher jar
         run: curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o publisher.jar
 
-      - name: Use Node.js '18.x'
+      - name: Use Node.js '20.x'
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '20.x'
           cache: 'npm'
 
       - name: Get sushi
