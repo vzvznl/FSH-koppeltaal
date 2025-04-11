@@ -64,7 +64,7 @@ jobs:
         uses: ihiroky/extract-action@v1
         with:
           file_path: nictiz-packages/nictiz.fhir.nl.r4-with-snapshot.zip 
-          extract_dir: ./.fhir/packages
+          extract_dir: /home/runner/.fhir/packages
           verbose: true
 
       - name: Run the IG Builder
