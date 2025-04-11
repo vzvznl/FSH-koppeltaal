@@ -55,6 +55,9 @@ jobs:
       - name: Get sushi
         run: npm install -g fsh-sushi
 
+      - name: Unpack the temporary zip with Nictiz packages
+        run: mkdir ./.fhir/packages ; cd .fhir/packages ; unzip ../../nictiz-packages/nictiz.fhir.nl.r4-with-snapshot.zip 
+
       - name: Run the IG Builder
         run: java -jar publisher.jar -ig ig.ini
 
