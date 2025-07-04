@@ -12,6 +12,6 @@ Usage: #example
   * value = "048d9d71-186c-4508-8615-6e8f9b5013ef"
 * type = $sct#9096001 "support"
 * status = #active
-* deviceName
-  * name = "Test Module"
-  * type = #user-friendly-name
+// * deviceName
+//   * name = "Test Module"
+//   * type = #user-friendly-name

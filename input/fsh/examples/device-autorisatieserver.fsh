@@ -12,6 +12,6 @@ Usage: #example
   * value = "autorisatieserver"
 * type = $sct#9096001 "support"
 * status = #active
-* deviceName
-  * name = "Autorisatieserver"
-  * type = #user-friendly-name
+// * deviceName
+//   * name = "Autorisatieserver"
+//   * type = #user-friendly-name
