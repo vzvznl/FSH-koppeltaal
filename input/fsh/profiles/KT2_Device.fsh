@@ -12,7 +12,7 @@ Description: "The (FHIR) Device (resource) is a representation of an application
   * ^slicing.rules = #open
   * ^min = 0
 * identifier 1..
-  * system = "http://vzvz.nl/fhir/NamingSystem/koppeltaal-client-id" (exactly)
+  // * system = "http://vzvz.nl/fhir/NamingSystem/koppeltaal-client-id" (exactly)
 * definition ..0
 * udiCarrier ..0
 * status 1..
